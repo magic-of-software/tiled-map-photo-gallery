@@ -68,6 +68,7 @@ function photomap(posX, posY, width, height, mapName){
 	// <--- Map methods --->
 
 	this.hoverEffect = function(hoverColor, transition){
+		return;
 		if(hoverColor == undefined){
 			return currHoverColor;
 		}
