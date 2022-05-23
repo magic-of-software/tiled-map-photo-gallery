@@ -280,7 +280,7 @@ function pullImages(state, id){
 					stateHovered = null;
 					stateHoveredId = null;
 				};
-				state.hover(hoverTransition,exitTransition);
+				// state.hover(hoverTransition,exitTransition);
 
 			}
 
